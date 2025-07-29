@@ -47,7 +47,7 @@ Do you want to know about past winners?
 
 We can do this by prompting the model to respond in json format if it knows the answer based on it's training data.
 
-System prompt: IIdentify if you have the knowlege in your training to answer this question. Format the response as JSON like {"user": user message here, "known": True or False.}
+System prompt: Identify if you have the knowlege in your training to answer this question. Format the response as JSON like {"user": user message here, "known": True or False.}
 
 ```python
 determine_known = client.chat.completions.create(
@@ -73,11 +73,11 @@ print(result)
  Output:
 `{'user': 'Who won the 2025 Belgian Grand Prix?', 'known': False}`
 
-# Step 4: Prompt the model to return a Wikipedia article it should search for
+# Step 4: Prompt the model to return a Wikipedia article it should use
 
 The Wikipedia library can pull data for an article based on a search term. Using the below system we can get it to output a simple relevant search term to the question.
 
-System Prompt - `Identify a wikipedia search term that can be used to find articles to answer the specific user question in the json input finding knowledge you dont already have. The current date {date}. Return only the search term.`
+System Prompt - `Identify a wikipedia search term that can be used to find articles to answer the specific user question in the json input finding knowledge you dont already have. The current date is {date}. Return only the search term.`
 
 ```python
 if not result['known']:
