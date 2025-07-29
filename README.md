@@ -1,6 +1,6 @@
 Running a large language model locally has some advantages, specifically privacy and cost. One significant drawback is that it's limited to the information it was trained on. My goal in this example is to show how we can use python and the Wikipedia library to use Wikipedia as a knowledge base for getting current information.
 
-# Step 1: Set up you're locally running LLM
+# Step 1: Set up a locally running LLM
 
 For this example I'm using gemma-3-12 https://huggingface.co/google/gemma-3-12b-it. The simplest way to run it with an openai compatible api is to use lm studio. https://lmstudio.ai/docs/app. Follow the guide to run the model of your choice locally. https://lmstudio.ai/docs/app/basics. 
 
