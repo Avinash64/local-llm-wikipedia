@@ -71,7 +71,7 @@ print(result)
 ```
  
  Output:
-`{'user': 'Who won the 2025 Belgian Grand Prix?', 'known': False}`
+`{'user': 'Who won the 2025 Belgian Grand Prix and how?', 'known': False}`
 
 # Step 4: Prompt the model to return a Wikipedia article it should use
 
