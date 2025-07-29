@@ -8,7 +8,7 @@ Once it's running make sure the API server is also running.
 ![alt text](https://github.com/Avinash64/local-llm-wikipedia/blob/master/lmstudo_screenshot.png?raw=true "LM Studio")
 
 
-Note: To connect to the api from a different device on the same network change the ip to your computers local ip address.
+Note: To connect to the api from a different device on the same network change the ip to your computer's local ip address.
 
 # Step 2: Connect using python and the openai library
 ```python
