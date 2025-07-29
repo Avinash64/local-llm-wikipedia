@@ -2,7 +2,7 @@ Running a large language model locally has some advantages, specifically privacy
 
 # Step 1: Set up you're locally running LLM
 
-For this example I'm using gemma-3-12 https://huggingface.co/google/gemma-3-12b-it. The simplest way to run it with an openai compatible api is to use lm studio. https://lmstudio.ai/docs/app. Follow to guide to run the model of your choice locally. https://lmstudio.ai/docs/app/basics. 
+For this example I'm using gemma-3-12 https://huggingface.co/google/gemma-3-12b-it. The simplest way to run it with an openai compatible api is to use lm studio. https://lmstudio.ai/docs/app. Follow the guide to run the model of your choice locally. https://lmstudio.ai/docs/app/basics. 
 
 Once it's running make sure the API server is also running.
 ![alt text](https://github.com/Avinash64/local-llm-wikipedia/blob/master/lmstudo_screenshot.png?raw=true "LM Studio")
